@@ -33,33 +33,33 @@ The credit risk model was trained using a structured and industry-aligned ML wor
 
 # 1️⃣ Data Understanding & EDA
 
-->Explored borrower demographics, loan attributes, credit behavior
+✅Explored borrower demographics, loan attributes, credit behavior
 
-->Analyzed delinquency indicators, loan purpose, income groups, risk patterns
+✅Analyzed delinquency indicators, loan purpose, income groups, risk patterns
 
-->Checked missing values, outliers, skewness, and class imbalance
+✅Checked missing values, outliers, skewness, and class imbalance
 
-->Performed correlation and feature importance insights
+✅Performed correlation and feature importance insights
 
 # 2️⃣ Data Preprocessing
 
-->Missing value treatment using median/mode
+👉Missing value treatment using median/mode
 
-->Outlier handling using IQR and percentile capping
+👉Outlier handling using IQR and percentile capping
 
-->One-hot encoding for categorical variables
+👉One-hot encoding for categorical variables
 
-->Scaling of continuous variables using StandardScaler
+👉Scaling of continuous variables using StandardScaler
 
 # Feature engineering:
 
-->Loan-to-Income Ratio
+👉Loan-to-Income Ratio
 
-->Credit Utilization Ratio
+👉Credit Utilization Ratio
 
-->Delinquency Ratio
+👉Delinquency Ratio
 
-->DPD (Days Past Due) Metrics
+👉DPD (Days Past Due) Metrics
 
 Risk-based ratios derived from credit behavior
 
@@ -209,15 +209,6 @@ Deployment
 
 Streamlit Cloud
 
-# 📁 Project Structure
-.
-├── main.py                     # Streamlit UI
-├── prediction_helper.py        # Preprocess + scoring + credit score logic
-├── artifacts/
-│   └── model_data.joblib       # Trained model + scaler + metadata
-├── requirements.txt
-└── README.md
-
 # 🛠️ Running the Project Locally
 ## Step 1: Clone the repo
 git clone https://github.com/<your-username>/ml-project-credit-risk-modeling.git
@@ -226,7 +217,7 @@ cd ml-project-credit-risk-modeling
 ## Step 2: Create virtual environment
 python -m venv .venv
 source .venv/bin/activate       # macOS/Linux
-# OR
+#### OR
 .\.venv\Scripts\activate        # Windows
 
 ## Step 3: Install dependencies
